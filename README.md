@@ -1,50 +1,56 @@
 # HR Analytics Dashboard
 
-An interactive HR Analytics Dashboard built using Tableau to analyze employee performance, attendance, attrition, salary trends, and workforce insights.
+An interactive HR Analytics Dashboard built using **Tableau, Python, and SQL** to analyze employee performance, attendance, attrition, salary trends, and workforce distribution.
 
-## 📊 Project Overview
+## 📊 Dashboard Preview
 
-This project provides an interactive dashboard that helps HR teams understand workforce data and make data-driven decisions.
+![HR Analytics Dashboard](dashboard/hr-analytics-dashboard.png)
 
-## 🎯 Key Objectives
+## 🎯 Project Objective
 
-- Analyze employee distribution across departments
-- Monitor employee attendance
-- Analyze employee attrition
-- Compare salary trends
-- Evaluate employee performance
-- Provide useful HR KPIs through an interactive dashboard
+The objective of this project is to help HR teams make data-driven decisions by analyzing important workforce metrics such as:
 
-## 📌 Key Dashboard Metrics
+- Employee distribution
+- Attendance rate
+- Employee attrition
+- Average salary
+- Monthly salary trends
+- Employee performance
+- Department-wise workforce insights
 
-- Total Employees
-- Attendance Rate
-- Attrition Rate
-- Average Salary
-- Performance Score
-- Monthly Salary
+## 🚀 Key Features
 
-## 📈 Dashboard Analysis
+### 👥 Employee Analytics
+- Department-wise employee count
+- Workforce distribution
+- Employee-level HR data analysis
 
-The dashboard includes:
+### 📈 Performance Analysis
+- Average performance score by department
+- Comparison of employee performance across departments
 
-- Employee Count by Department
-- Attendance Rate by Department
-- Attrition Rate by Department
-- Average Salary by Department
-- Monthly Salary by Department
-- Average Performance Score by Department
+### 🕒 Attendance Analysis
+- Department-wise attendance rate
+- Identification of attendance trends
 
-## 🛠️ Tools & Technologies
+### 💰 Salary Analysis
+- Average monthly salary by department
+- Department-wise salary comparison
+- Salary trend analysis
 
-- Tableau
-- Python
-- SQL
-- GitHub
+### 🔄 Attrition Analysis
+- Department-wise attrition rate
+- Identification of departments with higher employee turnover
 
-## 📊 Tableau Dashboard
+## 🛠️ Technologies Used
 
-[View Interactive Tableau Dashboard](https://prod-in-a.online.tableau.com/#/site/ritikmukhiya88-19c1ef762a/workbooks/1375551?:origin=card_share_link)
+| Technology | Purpose |
+|---|---|
+| Python | Data generation and preprocessing |
+| SQL | Data analysis and queries |
+| Tableau | Interactive dashboard and visualization |
+| CSV | Dataset storage |
+| GitHub | Version control and project hosting |
 
 ## 📁 Project Structure
 
@@ -52,7 +58,14 @@ The dashboard includes:
 HR-Analytics-Dashboard/
 │
 ├── README.md
-├── data/
-├── sql/
+├── hr_data.csv
+│
 ├── python/
+│   ├── generate_hr_data.py
+│   └── import_to_mysql.py
+│
+├── sql/
+│   └── hr_analysis.sql
+│
 └── dashboard/
+    └── hr-analytics-dashboard.png
