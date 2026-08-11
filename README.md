@@ -1,10 +1,14 @@
-# HR Analytics Dashboard
+# 📊 HR Analytics Dashboard
 
-An interactive HR Analytics Dashboard built using **Tableau, Python, and SQL** to analyze employee performance, attendance, attrition, salary trends, and workforce distribution.
+An interactive HR Analytics Dashboard built using **Tableau, Python, SQL, and GitHub** to analyze employee performance, attendance, attrition, salary trends, and workforce distribution.
 
 ## 📊 Dashboard Preview
 
 ![HR Analytics Dashboard](dashboard/hr-analytics-dashboard.png)
+
+## 🔗 Tableau Dashboard
+
+[👉 View Interactive HR Analytics Dashboard](https://prod-in-a.online.tableau.com/t/ritikmukhiya88-19c1ef762a/views/HRAnalyticsDashboard/HRANALYTICSDASHBOARD)
 
 ## 🎯 Project Objective
 
@@ -20,37 +24,24 @@ The objective of this project is to help HR teams make data-driven decisions by 
 
 ## 🚀 Key Features
 
-### 👥 Employee Analytics
-- Department-wise employee count
-- Workforce distribution
-- Employee-level HR data analysis
-
-### 📈 Performance Analysis
-- Average performance score by department
-- Comparison of employee performance across departments
-
-### 🕒 Attendance Analysis
-- Department-wise attendance rate
-- Identification of attendance trends
-
-### 💰 Salary Analysis
-- Average monthly salary by department
-- Department-wise salary comparison
-- Salary trend analysis
-
-### 🔄 Attrition Analysis
-- Department-wise attrition rate
-- Identification of departments with higher employee turnover
+- 👥 Employee Analytics
+- 📉 Attrition Analysis
+- 📅 Attendance Analysis
+- 💰 Salary Insights
+- 📊 Interactive Tableau Dashboard
+- 📈 KPI Reporting
+- 🏢 Department-wise Analysis
+- ⭐ Employee Performance Analysis
 
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
-|---|---|
-| Python | Data generation and preprocessing |
-| SQL | Data analysis and queries |
+|------------|---------|
+| Python | Data generation and data processing |
+| SQL | Data analysis and database queries |
 | Tableau | Interactive dashboard and visualization |
-| CSV | Dataset storage |
-| GitHub | Version control and project hosting |
+| GitHub | Version control and project repository |
+| CSV | HR employee dataset |
 
 ## 📁 Project Structure
 
@@ -69,10 +60,3 @@ HR-Analytics-Dashboard/
 │
 └── dashboard/
     └── hr-analytics-dashboard.png
-
-'''
-## 📊 Tableau Dashboard
-
-[View Interactive HR Analytics Dashboard](https://prod-in-a.online.tableau.com/t/ritikmukhiya88-19c1ef762a/views/HRAnalyticsDashboard/HRANALYTICSDASHBOARD)
-
-
