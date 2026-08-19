@@ -2,9 +2,6 @@
 
 An interactive HR Analytics Dashboard built using **Tableau, Python, SQL, and GitHub** to analyze employee performance, attendance, attrition, salary trends, and workforce distribution.
 
-## 📊 Dashboard Preview
-
-![HR Analytics Dashboard](dashboard/hr-analytics-dashboard.png)
 
 ## 🔗 Tableau Dashboard
 
